@@ -1,0 +1,67 @@
+@font-face {
+  font-family: San Francisco;
+  src: url(../fonts/sm\ SFNSDisplay-Regular.ttf);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-image: url('../images/home-pic1.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  font-family: San Francisco; 
+}
+
+#navbar {
+  width: 100%;
+  height: 40px;
+  background-color: rgba(237, 237, 237, 0.9);
+  display: flex;
+  align-content: center;
+  position: fixed;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 15px;
+  font-weight: bold;
+}
+
+#navbar a:hover {
+  color: #54ba88;
+  transition: 0.3s ease;
+}
+
+#options{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-items: center;
+  align-content: center;
+  align-items: center; 
+}
+
+#home{
+  background-color: rgba(253, 253, 253, 0.777);
+  text-align: justify;
+  font-size: 16px;
+  color: rgb(80, 79, 79);
+  width: 30%;
+  height: 100%;
+  padding: 1px 10px;
+  margin-top: 10px;
+  margin: auto;
+}
+
+#background {
+  background-image: url('../images/home-pic2.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat; 
+  width: 100%;
+  height: 100vh;
+}
