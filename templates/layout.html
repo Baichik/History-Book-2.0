@@ -5,9 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}Главная{% endblock %}</title>
     <link rel="stylesheet" href="{{url_for('static', filename="/css/style.css")}}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
   </head>
   <body>
     {% include 'navbar.html' %}
     {% block content %} {% endblock %}
+    <footer id="footer">
+      <p>Zhumabek uulu Baidolot </p>
+      <a class="fab fa-instagram" href="https://www.instagram.com/jumabekovbaichik/"></a>
+      <a class="fab fa-github" href="https://github.com/Baichik"></a>
+    </footer>
   </body>
 </html>

@@ -41,7 +41,7 @@ html, body {
   background-repeat: no-repeat;
   display: flex;
   width: 100%;
-  height: 100vh;
+  height: 95.9vh;
   justify-items: center;
   align-content: center;
   align-items: center; 
@@ -53,7 +53,7 @@ html, body {
   font-size: 16px;
   color: rgb(80, 79, 79);
   width: 30%;
-  height: 62vh;
+  height: 61vh;
   padding: 1px 10px;
   margin-top: 10px;
   margin: auto;
@@ -62,9 +62,127 @@ html, body {
 #update-container{
   margin: 0;
   padding: 0;
-  background-image: url('../images/home-pic4.jpg');
+  background-image: url('../images/home-pic2.jpg');
   background-size: 100%;
   background-repeat: no-repeat; 
   width: 100%;
   height: 95.9vh;
+  display: flex;
+}
+#inner-container{
+  background-color: rgba(253, 253, 253, 0.777);
+  text-align: center;
+  font-size: 16px;
+  color: rgb(80, 79, 79);
+  width: 30%;
+  height: 15vh;
+  padding: 1px 10px;
+  margin-top: 10px;
+  margin: auto;
+}
+
+#footer{
+  background-color: rgb(14, 13, 13);
+  height: 10vh;
+  width: 100%;
+  color: rgb(237, 237, 237);
+  text-align: justify;
+  margin: 0px;
+  padding:20px 10px; 
+}
+
+#footer a {
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+  padding: 5px;
+}
+
+#footer a:hover{
+  transform: rotate(360deg);
+  transition: 0.5s ease;
+}
+
+#footer p {
+  display: inline;
+  font-size: 30px;
+}
+
+#down-container{
+  margin: 0;
+  padding: 0;
+  background-image: url('../images/home-pic3.jpg');
+  background-size: 100%;
+  display: flex;
+  width: 100%;
+  height: 95.9vh;
+  justify-items: center;
+  align-content: space-around;
+  align-items: center; 
+  background-repeat: no-repeat;  
+}
+#in-container{
+  background-color: rgba(253, 253, 253, 0.777);
+  text-align: center;
+  font-size: 16px;
+  color: rgb(80, 79, 79);
+  width: 30%;
+  height: 10vh;
+  padding: 1px 10px;
+  margin-top: 10px;
+  margin: auto;
+}
+
+#in-container p{
+  display: inline;
+}
+
+#in-container a{
+  font-size: 30px;
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+#in-container a:hover{
+  transform: rotate(360deg);
+  color: rgb(97, 99, 202);
+  transition: 0.5s ease;
+}
+
+#cont-container{
+  background-image: url("../images/home-pic4.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 100%;
+  height: 95.9vh;
+  justify-items: center;
+  align-content: space-around;
+  align-items: center;   
+}
+
+#inn-container{
+  background-color: rgba(253, 253, 253, 0.777);
+  text-align: center;
+  font-size: 16px;
+  color: rgb(80, 79, 79);
+  width: 30%;
+  height: 23vh;
+  padding: 1px 10px;
+  margin-top: 10px;
+  margin: auto;
+}
+
+#dev {
+  display: flex;
+  flex-direction: column;
+}
+
+#dev a{
+  font-size: 20px;
+  padding: 5px;
+  text-align: left;
 }
