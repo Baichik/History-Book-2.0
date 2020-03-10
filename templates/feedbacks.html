@@ -1,0 +1,26 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+  <div id="feedbacks-home">
+      {% for feedback in feedbacks %}
+      <div id="feedback-container">
+
+        <div id="feedback-header-container">
+          <span>
+            <span id="feedback-header">Имя:</span>
+            <span id="feedback-content">{{feedback.fname}}</span>
+          </span>
+          <span>
+            <span id="feedback-header">Фамилия:</span>
+            <span id="feedback-content">{{feedback.lname}}</span>
+          </span>
+        </div>
+        
+        <span id="feedback-header">Коментарий:</span>
+        <div id="feedback-body">
+          <span id="feedback-content">{{feedback.comment}}</span>
+        </div>
+      </div>
+      {% endfor %}
+  </div>
+{% endblock %}

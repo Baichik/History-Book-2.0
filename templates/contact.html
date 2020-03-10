@@ -2,15 +2,21 @@
 
 {% block content %}
   <div id="cont-container">
-    <div id="inn-container">
-    <p><b><center>Есть предложения или нашли баг?</center></b></p>
-    <p>Если у вас есть предложения или вам пришлось встретиться лицом к лицу с багом, или с багами - обращайтесь к разработчикам, мы постараемся исправить.</p>
-    <div id="dev">  
-      <a class="	far fa-envelope">Akmatov_Az@iuca.kg</a>
-      <a class="	far fa-envelope">Zhumabek_uulu_B@iuca.kg</a>
-      <a class="	far fa-envelope">Dzholdoshbekov_T@iuca.kg</a>
-    </div>
-    </div>
+      <div id="inn-container">
+        <p><b><center>Есть предложения или нашли баг?</center></b></p>
+        <p>Если у вас есть предложения или вам пришлось встретиться лицом к лицу с багом, или с багами - обращайтесь к разработчикам, мы постараемся исправить.</p>
+          <a class="far fa-envelope" style="font-size:20px;">Akmatov_Az@iuca.kg</a>
+          <a class="far fa-envelope" style="font-size:20px;">Zhumabek_uulu_B@iuca.kg</a>
+          <a class="far fa-envelope" style="font-size:20px;">Boorsoft@gmailg.com</a>
+      </div>
+      <form id="comment" method="POST">
+        <label for="fname">Имя:</label><br>
+        <input type="text" id="input" name="fname" required><br>
+        <label for="lname">Фамилия:</label><br>
+        <input type="text" id="input" name="lname" required><br>
+        <label for="comment">Введите коментарий:</label><br>
+        <textarea type="text" id="com-form" name="comment" required></textarea><br>
+        <button type="submit" id="submit-button">Отправить</button>
+      </form>
   </div>
-
 {% endblock %}
